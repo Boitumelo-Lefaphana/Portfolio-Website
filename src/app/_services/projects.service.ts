@@ -77,7 +77,7 @@ export class ProjectsService {
     return this.projects;
   }
 
-  GetProjectsById(id: number): Project {
+  GetProjectById(id: number): Project {
     let project = this.projects.find((project) => project.id === id);
 
     if (project === undefined) {
