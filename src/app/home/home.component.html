@@ -12,17 +12,15 @@
           class="rounded-circle"
         />
         <p>
-          I am a computer science graduate with a passion for developing
-          innovative solutions to real-world problems. I have experience in
-          various programming languages, frameworks, and technologies, such as
-          Python, Java, HTML, CSS, JavaScript, React, Angular, MongoDB, SQL and
-          more. I have also completed several projects and courses that
-          demonstrate my skills and knowledge in areas such as web application
-          development, machine learning and artificial intelligence, and I am
-          eager to learn new things and challenge myself in the fast-paced and
-          dynamic field of computer science. I am looking for opportunities to
-          apply my skills and creativity in a collaborative and diverse
-          environment.
+          Hi! I am Boitumelo Lefaphana, a passionate Full-Stack Software
+          Developer, I have expertise in Python, Java, HTML, CSS, JavaScript,
+          React, Angular, MongoDB, and SQL. I've optimized data quality at CBS
+          and developed Java applications at MesTech. My portfolio includes
+          projects like the 'Snake Game', 'Distributed Unix-based Development
+          Kernel', 'Cost Effective Campus Instant Messenger', and 'Drug
+          Inventory Database System', showcasing my problem-solving skills and
+          creativity. I am dedicated to continuous learning and passionate about
+          leveraging technology to solve real-world challenges.
         </p>
       </div>
     </div>
@@ -32,6 +30,20 @@
         <h2>Featured Project</h2>
         <h4>{{ featuredProject.name }}</h4>
       </div>
+      <carousel>
+        <div *ngFor="let picture of featuredProject.pictures">
+          <slide>
+            <img
+              src="{{ picture }}"
+              alt="slide"
+              style="display: block; width: 100%"
+            />
+          </slide>
+        </div>
+      </carousel>
+
+      <P class="mt-2">{{ featuredProject.summary }}</P>
+      <p>Visit the portfolio section to learn more!</p>
     </div>
   </div>
 </div>
