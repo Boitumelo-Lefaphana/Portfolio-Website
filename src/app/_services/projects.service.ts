@@ -18,80 +18,65 @@ export class ProjectsService {
       projectLink: 'https://github.com/Boitumelo-Lefaphana/Snake-Game',
       summary: 'Java project that stimulates classical snake game.',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Java Snake: A thrilling game of navigation and growth. Steer your snake, consume food to score and expand. Beware, hitting the boundary or your own tail spells game over. Showcasing Java strength in recreating this classic. Experience the nostalgia, challenge your agility.',
       tags: [Tag.JAVA],
     },
     {
       id: 1,
       name: 'Angular Portfolio Website',
       pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
+        '../../assets/folio1.png',
+        '../../assets/folio2.png',
+        '../../assets/folio3.png',
       ],
       projectLink: 'https://github.com/Boitumelo-Lefaphana/Portolio-Website',
       summary: 'FrondEnd portfolio using Angular and TypeScript',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Angular Portfolio: A showcase of dynamic web projects, built with the powerful Angular framework. Experience interactive designs, seamless user interfaces, and robust functionality. A testament to proficiency in Angular development.',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT],
     },
     {
       id: 2,
-      name: 'Sample .Net App',
+      name: 'Drug Inventory System',
       pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
+        '../../assets/drug1.png',
+        '../../assets/drug2.png',
+        '../../assets/drug3.png',
       ],
-      projectLink: '//www.github.com',
-      summary: 'Fullstack web app developed using React and ASP.NET',
+      projectLink: 'https://github.com/Boitumelo-Lefaphana',
+      summary: 'Fullstack web app developed using React and NodeJS',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tags: [Tag.REACT, Tag.CSHARP, Tag.ASPNET],
+        'Drug Inventory System: A comprehensive solution for managing patient databases across hospitals and clinics. Facilitates real-time tracking of drug inventory, ensuring efficient healthcare delivery. Built with a focus on patient safety and seamless healthcare experience.',
+      tags: [Tag.REACT, Tag.JAVASCRIPT, Tag.NODEJS],
     },
     {
       id: 3,
-      name: 'Web API Project',
+      name: 'Cost Effective Campus Instant Messenger',
       pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
+        '../../assets/chat1.png',
+        '../../assets/chat2.png',
+        '../../assets/chat3.png',
       ],
-      projectLink: '//www.github.com',
-      summary: 'Web API Project that was developed for a class project.',
+      projectLink:
+        'https://github.com/Boitumelo-Lefaphana/Campus-Effective-Instant-Campus-Messenger',
+      summary: 'Messenger that allows students to communicate with each other.',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tags: [Tag.CSHARP, Tag.ASPNET],
+        'The Cost-Effective Campus Instant Messenger is a software application available at no or minimal cost. It facilitates real-time text conversations, ensuring that messages are instantly received by the intended recipient upon sending.',
+      tags: [Tag.JAVA],
     },
     {
       id: 4,
-      name: 'Chrome Extension',
+      name: 'Distributed Unix-based Kernel',
       pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
+        '../../assets/kernel1.png',
+        '../../assets/kernel2.png',
+        '../../assets/kernel3.png',
       ],
-      projectLink: '//www.github.com',
-      summary:
-        'Developed a chrome extension that tracks the prices of furniture.',
+      projectLink: 'https://github.com/Boitumelo-Lefaphana',
+      summary: 'Developed a kernel module for HPC systems',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tags: [Tag.JAVASCRIPT],
-    },
-    {
-      id: 5,
-      name: 'Mobile App',
-      pictures: [
-        '../../assets/image1.png',
-        '../../assets/image2.png',
-        '../../assets/image3.png',
-      ],
-      projectLink: '//www.github.com',
-      summary:
-        'Mobile app developed in java that tracks the departure and arrival of trains.',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      tags: [Tag.JAVA],
+        'High Performance Computing (HPC) systems consist of multiple compute nodes connected by a high-speed network to solve complex computing problems in parallel. To facilitate communication between nodes, a software layer is often used. In most HPC systems, each compute node has its own operating system, and workload managers such as Simple Linux Utility for Resource Management (SLURM) are used to optimise resource utilisation (coordinate tasks)',
+      tags: [Tag.CSHARP],
     },
   ];
 
