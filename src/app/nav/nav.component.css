@@ -1,8 +1,18 @@
-.nav-item {
-  color: #333;
-  transition: color 0.3s ease; /* Add this line */
-}
-
-.nav-item:hover {
-  color: #007bff; /* Add this line */
-}
+<nav class="navbar-expand-md border-buttom mb-3">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" routerLink="/home" routerLinkActive="text-dark">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" routerLink="/portfolio" routerLinkActive="text-dark">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" routerLink="/resume" routerLinkActive="text-dark">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" routerLink="/contact" routerLinkActive="text-dark">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
