@@ -29,7 +29,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
     ProjectModalComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     ModalModule.forRoot(),
